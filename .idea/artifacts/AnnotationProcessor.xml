@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AnnotationProcessor">
+    <output-path>$PROJECT_DIR$/target/artifacts/AnnotationProcessor</output-path>
+    <root id="archive" name="AnnotationProcessor.jar">
+      <element id="directory" name="processor">
+        <element id="file-copy" path="$PROJECT_DIR$/AnnotationDemo/src/main/java/processor/MyAnnotationProcessor.class" />
+      </element>
+    </root>
+  </artifact>
+</component>

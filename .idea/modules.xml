@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AnnotationDemo/AnnotationDemo.iml" filepath="$PROJECT_DIR$/AnnotationDemo/AnnotationDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Controls/Controls.iml" filepath="$PROJECT_DIR$/Controls/Controls.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GarbageCollection/GarbageCollection.iml" filepath="$PROJECT_DIR$/GarbageCollection/GarbageCollection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GenericDemo/GenericDemo.iml" filepath="$PROJECT_DIR$/GenericDemo/GenericDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java8NewFeatures/Java8NewFeatures.iml" filepath="$PROJECT_DIR$/Java8NewFeatures/Java8NewFeatures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasicConcepts/JavaBasicConcepts.iml" filepath="$PROJECT_DIR$/JavaBasicConcepts/JavaBasicConcepts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MultiTHreadDemo/MultiTHreadDemo.iml" filepath="$PROJECT_DIR$/MultiTHreadDemo/MultiTHreadDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOPDemo/OOPDemo.iml" filepath="$PROJECT_DIR$/OOPDemo/OOPDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QS2P1/QS2P1.iml" filepath="$PROJECT_DIR$/QS2P1/QS2P1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QS3/QS3.iml" filepath="$PROJECT_DIR$/QS3/QS3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RegularExpression/RegularExpression.iml" filepath="$PROJECT_DIR$/RegularExpression/RegularExpression.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shallow Copy vs Deep Copy/clone-demo.iml" filepath="$PROJECT_DIR$/Shallow Copy vs Deep Copy/clone-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core_java.iml" filepath="$PROJECT_DIR$/core_java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QS1/qs1.iml" filepath="$PROJECT_DIR$/QS1/qs1.iml" />
+    </modules>
+  </component>
+</project>

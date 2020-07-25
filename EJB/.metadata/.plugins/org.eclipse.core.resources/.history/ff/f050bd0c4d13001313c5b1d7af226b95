@@ -1,0 +1,23 @@
+package com.mercury.actions;
+
+import com.mercury.beans.User;
+import com.mercury.beans.UserInfo;
+import com.mercury.daos.HelloDao;
+import com.mercury.services.HelloService;
+
+public class HelloAction {
+	
+	public HelloAction(){
+		
+	}
+	HelloDao hd;
+	HelloService hs;
+	public UserInfo execute(User user){
+		
+		UserInfo userinfo = new UserInfo();
+		hd.save(user);
+		userinfo.setMsg(hs.welcome(user));
+		userinfo.setUsers(hd.query());
+		return userinfo;
+	}
+}

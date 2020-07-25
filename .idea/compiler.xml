@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="OOPDemo" />
+        <module name="clone-demo" />
+        <module name="RegularExpression" />
+        <module name="Java8NewFeatures" />
+        <module name="GarbageCollection" />
+        <module name="MultiTHreadDemo" />
+        <module name="qs1" />
+        <module name="Controls" />
+        <module name="GenericDemo" />
+      </profile>
+      <profile name="Annotation profile for CoreJavaDemo" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="processor.MyAnnotationProcessor" />
+        <module name="AnnotationDemo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AnnotationDemo" target="1.8" />
+      <module name="clone-demo" target="1.8" />
+      <module name="Controls" target="1.8" />
+      <module name="core_java" target="1.8" />
+      <module name="GarbageCollection" target="1.8" />
+      <module name="generic-demo (1)" target="1.5" />
+      <module name="GenericDemo" target="1.8" />
+      <module name="Java8NewFeatures" target="1.8" />
+      <module name="MultiTHreadDemo" target="1.8" />
+      <module name="OOPDemo" target="1.8" />
+      <module name="qs1" target="1.8" />
+      <module name="RegularExpression" target="1.8" />
+      <module name="Types" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-processor processor.MyAnnotationProcessor" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AnnotationDemo" options="" />
+      <module name="Controls" options="" />
+      <module name="GarbageCollection" options="" />
+      <module name="GenericDemo" options="" />
+      <module name="Java8NewFeatures" options="" />
+      <module name="MultiTHreadDemo" options="" />
+      <module name="OOPDemo" options="" />
+      <module name="RegularExpression" options="" />
+      <module name="Types" options="" />
+      <module name="clone-demo" options="" />
+      <module name="core_java" options="" />
+      <module name="generic-demo (1)" options="" />
+      <module name="qs1" options="" />
+    </option>
+  </component>
+</project>

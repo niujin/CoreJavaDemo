@@ -1,0 +1,16 @@
+package com.mercury.tests;
+
+import java.util.Properties;
+
+import javax.naming.InitialContext;
+
+public class Test01 {
+	public static void main(String args[]) throws Exception{
+		Properties props = new Properties();
+		props.setProperty("java.naming.factory.initial", "org.jnp.interfaces.NamingContextFactory");
+		props.setProperty("java.naming.provider.url", "localhost:1099");
+		props.setProperty("java.naming.factory.url.pkgs", "org.jboss.naming");
+		InitialContext ctx = new InitialContext(props);
+		
+	}
+}

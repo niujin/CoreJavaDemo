@@ -1,0 +1,5 @@
+package com.mercury.actions;
+
+public class HelloAction {
+
+}

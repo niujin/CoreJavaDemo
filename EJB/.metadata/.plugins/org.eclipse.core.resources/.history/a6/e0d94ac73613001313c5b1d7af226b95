@@ -1,0 +1,6 @@
+package com.mercury.beans;
+
+public class UserInfo {
+	private String msg;
+	private List<User> users;
+}
