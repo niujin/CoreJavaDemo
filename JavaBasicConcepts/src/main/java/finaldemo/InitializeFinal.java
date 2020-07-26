@@ -1,4 +1,4 @@
-package finaldemo;
+package main.java.finaldemo;
 
 public class InitializeFinal {
     //For non-static variable, it either can be initialized when it's defined,

@@ -1,17 +1,13 @@
 package cast;
 
 public class Base {
-
+    int a =5;
 }
 
 class Child extends Base{
+    int a =10;
     public static void main(String[] args){
-        //Compile error, the real object must be in 'is-a' relation with the reference type.
-        //Child c = new Base();
-
-
         Base b = new Child();
-
-
+        System.out.println(b.a);
     }
 }

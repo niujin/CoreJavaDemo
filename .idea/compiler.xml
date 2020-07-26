@@ -11,6 +11,7 @@
         <module name="RegularExpression" />
         <module name="Java8NewFeatures" />
         <module name="GarbageCollection" />
+        <module name="CollectionDemo" />
         <module name="MultiTHreadDemo" />
         <module name="qs1" />
         <module name="Controls" />
@@ -27,6 +28,7 @@
     <bytecodeTargetLevel>
       <module name="AnnotationDemo" target="1.8" />
       <module name="clone-demo" target="1.8" />
+      <module name="CollectionDemo" target="1.8" />
       <module name="Controls" target="1.8" />
       <module name="core_java" target="1.8" />
       <module name="GarbageCollection" target="1.8" />
@@ -44,6 +46,7 @@
     <option name="ADDITIONAL_OPTIONS_STRING" value="-processor processor.MyAnnotationProcessor" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="AnnotationDemo" options="" />
+      <module name="CollectionDemo" options="" />
       <module name="Controls" options="" />
       <module name="GarbageCollection" options="" />
       <module name="GenericDemo" options="" />

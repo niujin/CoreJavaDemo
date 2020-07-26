@@ -71,12 +71,17 @@ class SubClass3 extends GenericSubClass<String>{
 	{
 		t1.toUpperCase();
 	}
+
 }
 
 //You can also put a specific type even if subclass is generic
 class SubClass4<T> extends GenericSubClass<String>{
 	{
 		t1.toUpperCase();
+	}
+
+	public void test(){
+		String s = bar();
 	}
 }
 
